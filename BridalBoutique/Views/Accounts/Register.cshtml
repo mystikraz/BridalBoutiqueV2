@@ -1,4 +1,4 @@
-﻿@model BridalBoutique.Models.RegisterModel
+﻿@model BridalBoutique.Models.Customer
 
 @{
     ViewBag.Title = "Register";
@@ -17,7 +17,7 @@
 
 @using (Html.BeginForm())
 {
-    @Html.ValidationSummary(true, "Account creation was unsuccessful. Please correct the errors and try again.")
+    @Html.ValidationSummary(true, "Account creation was unsuccessful. Please correct the errors and try again .")
     <div>
         <fieldset>
             <legend>Account Information</legend>

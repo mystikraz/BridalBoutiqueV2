@@ -1,50 +1,128 @@
-﻿@{
+﻿@model IEnumerable<BridalBoutique.Models.Offer>
+
+@{
     ViewBag.Title = "Welcome";
 }
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#myModal").modal('show');
+    });
+</script>
 
-<div class="slider hidden-xs">
-    <ul class="rslides">
-        <li><img src="~/Content/Images/bakery.png" alt="" /></li>
-        <li><img src="~/Content/Images/dairy.png" alt="" /></li>
-        <li><img src="~/Content/Images/fruitandveg.png" alt="" /></li>
-        <li><img src="~/Content/Images/meat.png" alt="" /></li>
-    </ul>
-</div>
-<br />
 
-<h3 class="text-center">Click on a category below to get started</h3><br />
 
-<div class="row">
-    <div class="col-md-3">
-        <div class="categorywrap">
-            <a href="~/StoreFront/Index/1">
-                <h2>Dairy</h2>
-                <img src="~/Content/Images/dairyicon.png" alt="" />
-            </a>
-        </div>
-    </div>
-    <div class="col-md-3">
-        <div class="categorywrap">
-            <a href="~/StoreFront/Index/2">
-                <h2>Meats</h2>
-                <img src="~/Content/Images/meaticon.png" alt="" />
-            </a>
-        </div>
-    </div>
-    <div class="col-md-3">
-        <div class="categorywrap">
-            <a href="~/StoreFront/Index/3">
-                <h2>Bakery</h2>
-                <img src="~/Content/Images/bakeryicon.png" alt="" />
-            </a>
-        </div>
-    </div>
-    <div class="col-md-3">
-        <div class="categorywraplast">
-            <a href="~/StoreFront/Index/4">
-                <h2>Fruit &amp; Veg</h2>
-                <img src="~/Content/Images/fruiticon.png" alt="" />
-            </a>
+<div class="row panel panelBg">
+    
+    @foreach (var item in Model)
+    {
+
+        var month = item.OfferMonth.Month;
+        if (DateTime.Today.Month == month)
+        {
+            <a class="btn btn-success" data-toggle="modal" data-target=".bootstrapmodal"><span class="glyphicon glyphicon-eye-open"></span> Mangsir Offer</a>
+
+            <div id="myModal" class="modal fade bootstrapmodal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header panel-heading">
+
+                            <button data-dismiss="modal" class="close"><span>&times;</span></button>
+                            <div class="model-title text-info glyphicon glyphicon-info-sign"> Offer of this Month</div>
+
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="col-xs-12 col-md-12">
+                                <div class="row">
+                                    <div class="col-xs-12 col-md-10">
+                                        <div class="thumbnail">
+                                            @*<img class="img-responsive" src="~/images/@(product.ImagePath)">*@
+                                            @*@Html.DisplayFor(modelItem => product.OfferMonth.Name)*@
+
+
+
+                                            @Html.DisplayFor(modelItem => item.Products.ImagePath)
+
+                                            <img class="img-responsive" src="~/images/@Html.DisplayFor(modelItem => item.Products.ImagePath)">
+
+                                            <div class="caption text-center">
+                                                <p>
+                                                    <span>@item.Name</span>
+                                                </p>
+                                                <p>
+                                                    <b>Name:</b> <span>@item.Name</span>
+                                                </p>
+                                                <p>
+                                                    <b>Old Price:</b> <s>Rs.@(item.Products.Price + @item.NewPrice)</s>
+                                                </p>
+                                                <p>
+                                                    <b>Price:</b> <span>Rs.@item.Products.Price</span>
+                                                </p>
+                                                <p class="text-center">
+                                                    @Html.ActionLink("Add to cart", "AddToCart", "ShoppingCart", new { id = item.Products.Id }, new { @class = "btn btn-info" })
+                                                </p>
+                                            </div>
+                                            //break;
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style='clear:both;'></div>
+                        </div>
+                        <div class="modal-footer">
+                            @*<button class="btn btn-primary">submit</button>*@
+                            <button class="btn btn-default" data-dismiss="modal">cancel</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        }
+    }
+    
+    <h3 class="text-center page-header">Click on a category below to get started</h3><br />
+    <div class="row panel panelBg">
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="categorywrap">
+                    <a href="~/StoreFront/Index/1">
+                        <h2>Saree</h2>
+                        <img class="img-thumbnail" src="~/Content/Images/bridal.jpg" alt="bridal" width="220" />
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="categorywrap">
+                    <a href="~/StoreFront/Index/2">
+                        <h2>Lehenga</h2>
+                        <img class="img-thumbnail" src="~/Content/Images/lehenga.png" alt="lehenga" width="220" />
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="categorywrap">
+                    <a href="~/StoreFront/Index/3">
+                        <h2>Blouse</h2>
+                        <img class="img-thumbnail" src="~/Content/Images/blouse.jpg" alt="blouse" width="220" />
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="categorywraplast">
+                    <a href="~/StoreFront/Index/4">
+                        <h2>Accessories</h2>
+                        <img class="img-thumbnail" src="~/Content/Images/accessories.jpg" alt="accessories" width="220" />
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </div>

@@ -1,0 +1,50 @@
+﻿@model BridalBoutique.Models.Offer
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Offer</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Products.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Products.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NewPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NewPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OfferMonth)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OfferMonth)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

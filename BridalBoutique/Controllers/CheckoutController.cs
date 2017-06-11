@@ -1,9 +1,7 @@
 ﻿using BridalBoutique.DAL;
 using BridalBoutique.Models;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace BridalBoutique.Controllers
@@ -11,7 +9,7 @@ namespace BridalBoutique.Controllers
     [Authorize]
     public class CheckoutController : Controller
     {
-
+        
         private BridalBoutiqueContext db = new BridalBoutiqueContext();
         const String PromoCode = "FREE";
         public ActionResult AddressAndPayment()

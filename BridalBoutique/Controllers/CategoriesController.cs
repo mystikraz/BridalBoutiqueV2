@@ -1,15 +1,13 @@
 ﻿using BridalBoutique.DAL;
 using BridalBoutique.Models;
-using System;
-using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
-using System.Web;
 using System.Web.Mvc;
 
 namespace BridalBoutique.Controllers
 {
+
     public class CategoriesController : Controller
     {
         private BridalBoutiqueContext db = new BridalBoutiqueContext();
@@ -17,12 +15,20 @@ namespace BridalBoutique.Controllers
         // GET: Categories
         public ActionResult Index()
         {
+            if (Session["User"] == null)
+            {
+                return RedirectToAction("Login", "Users");
+            }
             return View(db.Categories.ToList());
         }
 
         // GET: Categories/Details/5
         public ActionResult Details(int? id)
         {
+            if (Session["User"] == null)
+            {
+                return RedirectToAction("Login", "Users");
+            }
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);

@@ -29,6 +29,8 @@ namespace BridalBoutique.Models
         public virtual Category Category { get; set; }
 
         public virtual ICollection<OrderedProduct> OrderedProducts { get; set; }
+        public string ImagePath { get; set; }
+
 
     }
 }

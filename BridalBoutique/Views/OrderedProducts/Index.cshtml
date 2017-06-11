@@ -1,0 +1,71 @@
+﻿@model IEnumerable<BridalBoutique.Models.OrderedProduct>
+
+@{
+    ViewBag.Title = "Ordered Products";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+
+}
+
+<h2>Ordered Products</h2>
+
+
+<table class="table panelBg">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerOrder.Id)
+        </th>
+        <th>
+            CustomerName
+            @*@Html.DisplayNameFor(model => model.CustomerOrder.FirstName)*@
+        </th>
+        <th>
+            ProductName
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerOrder.Address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerOrder.PostalCode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerOrder.Phone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Product.Price)
+        </th>
+    </tr>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomerOrder.Id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomerOrder.FirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Product.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Quantity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomerOrder.Address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomerOrder.PostalCode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomerOrder.Phone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Product.Price)
+        </td>
+    </tr>
+}
+
+</table>

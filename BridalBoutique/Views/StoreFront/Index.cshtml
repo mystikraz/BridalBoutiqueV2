@@ -10,53 +10,53 @@
 
 <div class="row">
     <div class="col-xs-12 col-md-3">
-        <ul class="nav nav-pills nav-stacked">
-            @if (Model.Name == "Dairy")
+        <ul class="nav nav-pills nav-stacked panelBg">
+            @if (Model.Name == "Saree")
             {
                 <li class="active">
-                    <a href="~/StoreFront/Index/1">DAIRY</a>
+                    <a href="~/StoreFront/Index/1">Saree</a>
                 </li>
             }
             else
             {
                 <li>
-                    <a href="~/StoreFront/Index/1">DAIRY</a>
+                    <a href="~/StoreFront/Index/1">Saree</a>
                 </li>
             }
-            @if (Model.Name == "Meats")
+            @if (Model.Name == "Lehenga")
             {
                 <li class="active">
-                    <a href="~/StoreFront/Index/2">MEATS</a>
+                    <a href="~/StoreFront/Index/2">Lehenga</a>
                 </li>
             }
             else
             {
                 <li>
-                    <a href="~/StoreFront/Index/2">MEATS</a>
+                    <a href="~/StoreFront/Index/2">Lehenga</a>
                 </li>
             }
-            @if (Model.Name == "Bakery")
+            @if (Model.Name == "Blouse")
             {
                 <li class="active">
-                    <a href="~/StoreFront/Index/3">BAKERY</a>
+                    <a href="~/StoreFront/Index/3">Blouse</a>
                 </li>
             }
             else
             {
                 <li>
-                    <a href="~/StoreFront/Index/3">BAKERY</a>
+                    <a href="~/StoreFront/Index/3">Blouse</a>
                 </li>
             }
-            @if (Model.Name == "Fruits")
+            @if (Model.Name == "Accessories")
             {
                 <li class="active">
-                    <a href="~/StoreFront/Index/4">FRUIT &amp; VEG</a>
+                    <a href="~/StoreFront/Index/4">Accessories</a>
                 </li>
             }
             else
             {
                 <li>
-                    <a href="~/StoreFront/Index/4">FRUIT &amp; VEG</a>
+                    <a href="~/StoreFront/Index/4">Accessories</a>
                 </li>
             }
 
@@ -68,13 +68,13 @@
             {
                 <div class="col-xs-12 col-md-3">
                     <div class="thumbnail">
-                        <img class="img-responsive" src="~/Content/Images/Products/@(product.Name).png">
+                        <img class="img-responsive" src="~/images/@(product.ImagePath)">
                         <div class="caption text-center">
                             <p>
                                 <b>Name:</b> <span>@product.Name</span>
                             </p>
                             <p>
-                                <b>Price:</b> <span>@product.Price USD</span>
+                                <b>Price:</b> <span>Rs.@product.Price</span>
                             </p>
                             <p class="text-center">
                                 @Html.ActionLink("Add to cart", "AddToCart", "ShoppingCart", new { id = product.Id }, new { @class = "btn btn-info" })

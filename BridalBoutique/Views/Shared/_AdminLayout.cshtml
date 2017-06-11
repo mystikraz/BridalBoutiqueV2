@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Bridal Boutique</title>
+    <link href='https://fonts.googleapis.com/css?family=Cuprum' rel='stylesheet' type='text/css'>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/ErrorStyles.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+</head>
+<body class="Bgimage">
+    <div class="navbar">
+        <div class="container panelBg">
+            <div class="navbar navbar-light">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="~/Home/index" class="navbar-brand"><img src="~/Content/Images/Logo.png" /></a>
+<h1 class="text-success text-center">DashBoard</h1>
+               
+            </div>
+            <div class="navbar-collapse collapse">
+                @Html.ActionLink("Product", "Index", "products", new { area = "" }, new { @class = "btn btn-success" })
+                @Html.ActionLink("Categories", "Index", "Categories", new { area = "" }, new { @class = "btn btn-success" })
+                @Html.ActionLink("Product Orders", "Index", "OrderedProducts", new { area = "" }, new { @class = "btn btn-success" })
+                @Html.ActionLink("Offers", "Index", "Offers", new { area = "" }, new { @class = "btn btn-success" })
+                <ul class="nav navbar-nav pull-right" style="background-color:#eee;">
+                    <li>
+                        @if (Session["User"] != null)
+
+                        {
+                            @*@Html.ActionLink("Product", "Logout", "Users", new { area = "" }, new { @class = "btn btn-success" })*@
+
+                            @Html.ActionLink("Welcome  '"+ Session["User"] +"' LogOut","Logout", "Users")
+                        }
+                        else
+                        {
+                            @Html.ActionLink("Login", "LogOn", "Accounts")
+                        }
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content panelBg">
+        @RenderBody()
+        <hr />
+
+    </div>
+    <footer class="alert alert-danger">
+        <p class="text-center"> Developed By <a href="https://mystikraz.github.io" target="_new">Rajan Tandukar</a> &copy; @DateTime.Now.Year</p>
+    </footer>
+
+</body>
+</html>

@@ -52,6 +52,7 @@ namespace BridalBoutique.Models
             db.SaveChanges();
         }
 
+       
         public int RemoveFromCart(int id)
         {
             var cartItem = db.Carts.SingleOrDefault(cart => cart.CartId == ShoppingCartId && cart.ProductId == id);

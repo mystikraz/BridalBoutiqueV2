@@ -2,23 +2,28 @@
 body {
     padding-top: 50px;
     padding-bottom: 20px;
+    color:#ffffff !important;
+    background-color:transparent;
+    font-family: serif, 'Times New Roman', Arial !important;
+
+}
+h1,h2,h3,h4{ color:#ffffff !important; }
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: serif, 'Times New Roman', Arial !important;
+    font-weight: 500;
+    line-height: 1.1;
 }
 
 
-
-.navbar-brand {
-    color: greenyellow !important;
-}
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    padding-top:20px;
+
 }
 
-h1,h2,h3,h4,h5,p,span,th,td,thead,tbody {
-    font-family: 'Cuprum', sans-serif;
-}
 
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
@@ -26,6 +31,15 @@ h1,h2,h3,h4,h5,p,span,th,td,thead,tbody {
 .dl-horizontal dt {
     white-space: normal;
 }
+.Bgimage {
+    background-image: url('Images/bg5.jpg') !important;
+}
+.panelBg { 
+    background:none;
+    background: rgba(54, 25, 25, .5) !important;
+    padding:30px 10px;
+ }
+.lead { color:#ececec;  }
 
 /* Set width on the form input elements since they're 100% wide by default */
 input,
@@ -33,158 +47,21 @@ select,
 textarea {
     max-width: 280px;
 }
-
-/*! http://responsiveslides.com v1.54 by @viljamis */
-
-.rslides {
-  position: relative;
-  list-style: none;
-  overflow: hidden;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  }
-
-.rslides li {
-  -webkit-backface-visibility: hidden;
-  position: absolute;
-  display: none;
-  width: 100%;
-  left: 0;
-  top: 0;
-  }
-
-.rslides li:first-child {
-  position: relative;
-  display: block;
-  float: left;
-  }
-
-.rslides img {
-  display: block;
-  height: auto;
-  float: left;
-  width: 100%;
-  border: 0;
-  }
-
-.slider {
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 10px;
+.nav>li>a {
+   margin: 0 10px;
 }
 
-.categorywrap {
-    border: 1px solid green;
+.nav>li>a:hover, .nav>li>a:focus {
+    margin: 0px 10px;
 }
 
-.categorywrap h2 {
-    text-align: center;
-    color: green
-}
+  @media only screen and (max-width: 320px) {
 
-.categorywrap img {
-    margin: 0 auto;
-    width: 100%;
-}
-
-.categorywraplast {
-    border: 1px solid green;
-}
-
-.categorywraplast h2 {
-    text-align: center;
-    color: green;
-}
-
-.categorywraplast img {
-    margin: 0 auto;
-    width: 100%;
-}
-
-.weird input[type="text"] {
-  padding: 10px;
-  border: solid 1px #dcdcdc;
-  transition: box-shadow 0.3s, border 0.3s;
-}
-
-.weird input[type="text"]:focus,
-.weird input[type="text"].focus {
-  border: solid 1px #707070;
-  box-shadow: 0 0 5px 1px #969696;
-}
-
-.weird input[type="email"] {
-  padding: 10px;
-  border: solid 1px #dcdcdc;
-  transition: box-shadow 0.3s, border 0.3s;
-}
-
-.weird input[type="email"]:focus,
-.weird input[type="email"].focus {
-  border: solid 1px #707070;
-  box-shadow: 0 0 5px 1px #969696;
-}
-
-/*navbar style*/
-.navbar-default {
-  background-color: #16450e;
-  border-color: #070707;
-}
-.navbar-default .navbar-brand {
-  color: #ffffff;
-}
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #ecdbff;
-}
-.navbar-default .navbar-text {
-  color: #ffffff;
-}
-.navbar-default .navbar-nav > li > a {
-  color: #ffffff;
-}
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #ecdbff;
-}
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #ecdbff;
-  background-color: #070707;
-}
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-  color: #ecdbff;
-  background-color: #070707;
-}
-.navbar-default .navbar-toggle {
-  border-color: #070707;
-}
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #070707;
-}
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #ffffff;
-}
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: #ffffff;
-}
-.navbar-default .navbar-link {
-  color: #ffffff;
-}
-.navbar-default .navbar-link:hover {
-  color: #ecdbff;
-}
-
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #ffffff;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #ecdbff;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #ecdbff;
-    background-color: #070707;
-  }
+    .mWidth100 {width: 100%;}
+    .lead{font-size:12px !important;}
+    .body-content {
+        padding-top: 100px !important;
+    }
 }
 
 

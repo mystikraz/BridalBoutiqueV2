@@ -1,8 +1,6 @@
-﻿using BridalBoutique.Models;
+﻿using BridalBoutique.DAL;
+using BridalBoutique.Models;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 using System.Web.Security;
 
@@ -10,6 +8,8 @@ namespace BridalBoutique.Controllers
 {
     public class AccountsController : Controller
     {
+        private BridalBoutiqueContext db = new BridalBoutiqueContext();
+
 
         private void MigrateShoppingCart(string userName)
         {
@@ -69,7 +69,7 @@ namespace BridalBoutique.Controllers
         }
 
         [HttpPost]
-        public ActionResult Register(RegisterModel model)
+        public ActionResult Register(Customer model)
         {
             if (ModelState.IsValid)
             {
@@ -79,6 +79,13 @@ namespace BridalBoutique.Controllers
 
                 if (createStatus == MembershipCreateStatus.Success)
                 {
+                    // var db = new BridalBoutiqueCon(); (?? is this what your context is called?)
+                    //var keyNew = Helper.GeneratePassword(10);
+                    //var password = Helper.EncodePassword(model.Password, keyNew);
+                    model.Password.GetHashCode();
+
+                    db.Customers.Add(model);
+                    db.SaveChanges();
                     MigrateShoppingCart(model.UserName);
 
                     FormsAuthentication.SetAuthCookie(model.UserName, false /* createPersistentCookie */);
@@ -94,13 +101,13 @@ namespace BridalBoutique.Controllers
             return View(model);
         }
 
-        [Authorize]
+       
         public ActionResult ChangePassword()
         {
             return View();
         }
 
-        [Authorize]
+       
         [HttpPost]
         public ActionResult ChangePassword(ChangePasswordModel model)
         {

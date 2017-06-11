@@ -1,10 +1,7 @@
 ﻿using BridalBoutique.DAL;
 using BridalBoutique.Models;
 using BridalBoutique.ViewModels;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace BridalBoutique.Controllers
@@ -20,7 +17,8 @@ namespace BridalBoutique.Controllers
             var viewModel = new ShoppingCartViewModel
             {
                 CartItems = cart.GetCartItems(),
-                CartTotal = cart.GetTotal()
+                CartTotal = cart.GetTotal(),
+                OfferItems = db.Offers.ToList()
             };
 
             return View(viewModel);
@@ -28,7 +26,8 @@ namespace BridalBoutique.Controllers
 
         public ActionResult AddToCart(int id)
         {
-            var addedProduct = db.Products.Single(product => product.Id == id);
+                       
+            var addedProduct = db.Products.SingleOrDefault(product => product.Id == id);
 
             var cart = ShoppingCart.GetCart(this.HttpContext);
 
@@ -54,8 +53,9 @@ namespace BridalBoutique.Controllers
                 ItemCount = itemCount,
                 DeleteId = id
             };
+            return RedirectToAction("Index"/*, new { returnUrl }*/);
 
-            return Json(results);
+            //return Json(results);
         }
 
         [ChildActionOnly]

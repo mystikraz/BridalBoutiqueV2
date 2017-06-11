@@ -55,3 +55,269 @@ c:\users\raj\documents\visual studio 2015\Projects\BridalBoutique\BridalBoutique
 c:\users\raj\documents\visual studio 2015\Projects\BridalBoutique\BridalBoutique\bin\Antlr3.Runtime.pdb
 c:\users\raj\documents\visual studio 2015\Projects\BridalBoutique\BridalBoutique\bin\Newtonsoft.Json.xml
 c:\users\raj\documents\visual studio 2015\Projects\BridalBoutique\BridalBoutique\bin\System.Web.Optimization.xml
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\ApplicationInsights.config
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\roslyn\csc.exe
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\roslyn\vbc.exe
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\roslyn\VBCSCompiler.exe
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\BridalBoutique.dll.config
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\BridalBoutique.dll
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\BridalBoutique.pdb
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\Antlr3.Runtime.dll
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\EntityFramework.dll
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\EntityFramework.SqlServer.dll
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\Microsoft.AI.Web.dll
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\Microsoft.ApplicationInsights.dll
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\Newtonsoft.Json.dll
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\System.Web.Helpers.dll
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\System.Web.Mvc.dll
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\System.Web.Optimization.dll
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\System.Web.Razor.dll
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\System.Web.Webpages.Deployment.dll
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\System.Web.Webpages.dll
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\System.Web.Webpages.Razor.dll
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\WebGrease.dll
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\Antlr3.Runtime.pdb
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\EntityFramework.xml
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\EntityFramework.SqlServer.xml
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\Microsoft.AI.Web.xml
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\Microsoft.ApplicationInsights.xml
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\Newtonsoft.Json.xml
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\System.Web.Optimization.xml
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\System.Web.Razor.xml
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\System.Web.Webpages.xml
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\System.Web.Webpages.Deployment.xml
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\System.Web.Webpages.Razor.xml
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\System.Web.Helpers.xml
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\bin\System.Web.Mvc.xml
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.csprojResolveAssemblyReference.cache
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.dll
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.pdb
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.Migrations.imagepath.resources
+C:\Users\raj\Dropbox\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.csproj.GenerateResource.Cache
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\ApplicationInsights.config
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\roslyn\csc.exe
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\roslyn\vbc.exe
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\roslyn\VBCSCompiler.exe
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\BridalBoutique.dll.config
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\BridalBoutique.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\BridalBoutique.pdb
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\Antlr3.Runtime.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\EntityFramework.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\EntityFramework.SqlServer.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\Microsoft.AI.Web.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\Microsoft.ApplicationInsights.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\Newtonsoft.Json.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\System.Web.Helpers.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\System.Web.Mvc.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\System.Web.Optimization.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\System.Web.Razor.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\System.Web.Webpages.Deployment.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\System.Web.Webpages.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\System.Web.Webpages.Razor.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\WebGrease.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\Antlr3.Runtime.pdb
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\EntityFramework.xml
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\EntityFramework.SqlServer.xml
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\Microsoft.AI.Web.xml
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\Microsoft.ApplicationInsights.xml
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\Newtonsoft.Json.xml
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\System.Web.Optimization.xml
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\System.Web.Razor.xml
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\System.Web.Webpages.xml
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\System.Web.Webpages.Deployment.xml
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\System.Web.Webpages.Razor.xml
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\System.Web.Helpers.xml
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\bin\System.Web.Mvc.xml
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.csprojResolveAssemblyReference.cache
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.Migrations.imagepath.resources
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.csproj.GenerateResource.Cache
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.pdb
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.Migrations.CustomerDetails.resources
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.Migrations.customerIdInCustomerOrder.resources
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.Migrations.confirmPassword.resources
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.Migrations.CreateOffer.resources
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.Migrations.CreateOfferAgain.resources
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.Migrations.CreateOfferAgain1.resources
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.Migrations.CreateOfferMonth.resources
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.Migrations.CreateOfferMonth1.resources
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.Migrations.CreateUser.resources
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.Migrations.UpdateUser.resources
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\ApplicationInsights.config
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\roslyn\csc.exe
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\roslyn\vbc.exe
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\roslyn\VBCSCompiler.exe
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\BridalBoutique.dll.config
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\BridalBoutique.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\BridalBoutique.pdb
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\Antlr3.Runtime.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\EntityFramework.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\EntityFramework.SqlServer.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\Microsoft.AI.Web.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\Microsoft.ApplicationInsights.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\Newtonsoft.Json.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\System.Web.Helpers.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\System.Web.Mvc.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\System.Web.Optimization.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\System.Web.Razor.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\System.Web.Webpages.Deployment.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\System.Web.Webpages.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\System.Web.Webpages.Razor.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\WebGrease.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\Antlr3.Runtime.pdb
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\EntityFramework.xml
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\EntityFramework.SqlServer.xml
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\Microsoft.AI.Web.xml
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\Microsoft.ApplicationInsights.xml
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\Newtonsoft.Json.xml
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\System.Web.Optimization.xml
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\System.Web.Razor.xml
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\System.Web.Webpages.xml
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\System.Web.Webpages.Deployment.xml
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\System.Web.Webpages.Razor.xml
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\System.Web.Helpers.xml
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\bin\System.Web.Mvc.xml
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.csprojResolveAssemblyReference.cache
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.Migrations.imagepath.resources
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.Migrations.CustomerDetails.resources
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.Migrations.customerIdInCustomerOrder.resources
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.Migrations.confirmPassword.resources
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.Migrations.CreateOffer.resources
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.Migrations.CreateOfferAgain.resources
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.Migrations.CreateOfferAgain1.resources
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.Migrations.CreateOfferMonth.resources
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.Migrations.CreateOfferMonth1.resources
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.Migrations.CreateUser.resources
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.Migrations.UpdateUser.resources
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.csproj.GenerateResource.Cache
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.dll
+C:\Users\raj\Google Drive\Islington\fyp\BridalBoutiquefyp\BridalBoutique1\BridalBoutique\BridalBoutique\obj\Debug\BridalBoutique.pdb
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\ApplicationInsights.config
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\roslyn\csc.exe
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\roslyn\vbc.exe
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\roslyn\VBCSCompiler.exe
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\BridalBoutique.dll.config
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\BridalBoutique.dll
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\BridalBoutique.pdb
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\Antlr3.Runtime.dll
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\EntityFramework.dll
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\EntityFramework.SqlServer.dll
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\Microsoft.AI.Web.dll
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\Microsoft.ApplicationInsights.dll
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\Newtonsoft.Json.dll
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\System.Web.Helpers.dll
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\System.Web.Mvc.dll
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\System.Web.Optimization.dll
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\System.Web.Razor.dll
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\System.Web.Webpages.Deployment.dll
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\System.Web.Webpages.dll
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\System.Web.Webpages.Razor.dll
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\WebGrease.dll
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\Antlr3.Runtime.pdb
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\EntityFramework.xml
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\EntityFramework.SqlServer.xml
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\Microsoft.AI.Web.xml
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\Microsoft.ApplicationInsights.xml
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\Newtonsoft.Json.xml
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\System.Web.Optimization.xml
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\System.Web.Razor.xml
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\System.Web.Webpages.xml
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\System.Web.Webpages.Deployment.xml
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\System.Web.Webpages.Razor.xml
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\System.Web.Helpers.xml
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\bin\System.Web.Mvc.xml
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\obj\Debug\BridalBoutique.csprojResolveAssemblyReference.cache
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\obj\Debug\BridalBoutique.Migrations.imagepath.resources
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\obj\Debug\BridalBoutique.Migrations.CustomerDetails.resources
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\obj\Debug\BridalBoutique.Migrations.customerIdInCustomerOrder.resources
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\obj\Debug\BridalBoutique.Migrations.confirmPassword.resources
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\obj\Debug\BridalBoutique.Migrations.CreateOffer.resources
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\obj\Debug\BridalBoutique.Migrations.CreateOfferAgain.resources
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\obj\Debug\BridalBoutique.Migrations.CreateOfferAgain1.resources
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\obj\Debug\BridalBoutique.Migrations.CreateOfferMonth.resources
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\obj\Debug\BridalBoutique.Migrations.CreateOfferMonth1.resources
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\obj\Debug\BridalBoutique.Migrations.CreateUser.resources
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\obj\Debug\BridalBoutique.Migrations.UpdateUser.resources
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\obj\Debug\BridalBoutique.csproj.GenerateResource.Cache
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\obj\Debug\BridalBoutique.dll
+C:\Users\raj\Desktop\2016-17_A_FC6P01NI_A2_CW_Report_16033487_Rajan Tandukar\BridalBoutique\obj\Debug\BridalBoutique.pdb

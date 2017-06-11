@@ -7,74 +7,98 @@
     CultureInfo us = new CultureInfo("en-US");
 }
 
+<div class="panelBg">
+    <h3 class="text-center">
+        <span><img src="~/Content/Images/shoping_cart.png" />Your shopping cart:</span>
+    </h3>
 
-<h3 class="text-center">
-    <span><img src="~/Content/Images/shoping_cart.png" />Your shopping cart:</span>
-</h3>
+    <div id="update-message" class="text-info">
+    </div>
+    @if (Model.CartItems.Count == 0)
+    {
+        <a class="btn btn-danger" href="~/StoreFront/Index/1">Your shopping cart is empty, continue shopping---></a>
+    }
+    else
+    {
+        <table class="table panelBg">
+            <tr>
+                <th>
+                    Product Name
+                </th>
+                <th>
+                    Price (each)
+                </th>
+                <th>
+                    Quantity
+                </th>
+                <th>Sub-total</th>
+                <th></th>
+            </tr>
+            @foreach (var item in Model.CartItems)
+            {
+                <tr id="row-@item.ProductId">
+                    <td>
+                        @Html.ActionLink(item.Product.Name, "Details", "Products", new { id = item.ProductId }, null)
+                    </td>
+                    <td>
+                        @if (Session["Offer"] != null)
+                        {
+                            foreach (var o in Model.OfferItems)
+                            {
+                                @o.NewPrice       
+                            }
+                        }
+                        else
+                        {
+                            @item.Product.Price
 
-<div id="update-message" class="text-info">
-</div>
-@if (Model.CartItems.Count == 0)
-{
-    <a class="btn btn-danger" href="~/StoreFront/Index/1">Your shopping cart is empty, continue shopping---></a>
-}
-else
-{
-    <table class="table-responsive table-bordered table-striped">
-        <tr>
-            <th>
-                Product Name
-            </th>
-            <th>
-                Price (each)
-            </th>
-            <th>
-                Quantity
-            </th>
-            <th>Sub-total</th>
-            <th></th>
-        </tr>
-        @foreach (var item in Model.CartItems)
-        {
-            <tr id="row-@item.ProductId">
+                        }
+                    </td>
+                    <td id="item-count-@item.ProductId">
+                        @item.Count
+                    </td>
+                    <td>
+                        @((item.Product.Price * item.Count).ToString("c", us))
+                    </td>
+                    <td>
+                        @using (Html.BeginForm("RemoveFromCart", "ShoppingCart"))
+                    {
+                            <input type="hidden" name="id" value="@item.ProductId" />
+                            @*@Html.Hidden("ProductId", item.ProductId)*@
+                            @*@Html.HiddenFor(x => x.ReturnUrl)*@
+                            <input class="btn btn-sm btn-warning"
+                                   type="submit" value="Remove" />
+                        }
+
+
+                        @*<a href="RemoveFromCart" class="RemoveLink" data-id="@item.ProductId">
+                            Remove from cart
+                        </a>*@
+                    </td>
+                </tr>
+            }
+            <tr>
                 <td>
-                    @Html.ActionLink(item.Product.Name, "Details", "Products", new { id = item.ProductId }, null)
+                    Total
                 </td>
-                <td>
-                    @item.Product.Price
-                </td>
-                <td id="item-count-@item.ProductId">
-                    @item.Count
-                </td>
-                <td>
-                    @((item.Product.Price * item.Count).ToString("c", us))
-                </td>
-                <td>
-                    <a href="" class="RemoveLink" data-id="@item.ProductId">
-                        Remove from cart
-                    </a>
+                <td></td>
+                <td></td>
+                <td id="cart-total" class="text-success">
+                    <b>@Model.CartTotal.ToString("C", us)</b>
                 </td>
             </tr>
-        }
-        <tr>
-            <td>
-                Total
-            </td>
-            <td></td>
-            <td></td>
-            <td id="cart-total" class="text-success">
-                <b>@Model.CartTotal.ToString("C", us)</b>
-            </td>
-        </tr>
-    </table>
+        </table>
 
-    <p class="button">
-        <a href="~/StoreFront/Index/1">Continue shopping>></a>
-    </p>
-    <p class="button">
-        @Html.ActionLink("Checkout>> ", "AddressAndPayment", "Checkout")
-    </p>
-}
+        <p class="button">
+            <a href="~/StoreFront/Index/1">Continue shopping>></a>
+        </p>
+        <p class="button">
+            @Html.ActionLink("Checkout>> ", "AddressAndPayment", "Checkout")
+        </p>
+    }
+
+
+</div>
 
 
 
